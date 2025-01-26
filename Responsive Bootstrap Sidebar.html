@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Bootstrap Sidebar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body data-bs-theme="dark" class="bg-body-tertiary">
+    <div class="d-flex vh-100">
+        <!-- Sidebar -->
+        <nav id="sidebar" class="d-flex flex-shrink-0 flex-column offcanvas-lg offcanvas-start bg-dark border-end h-100" tabindex="-1" style="width: 250px;">
+            <div class="p-3 border-bottom text-white d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">sidebar header</h4>
+                <button type="button" class="btn-close btn-close-white d-lg-none d-block" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-label="close"></button>
+            </div>
+
+            <ul class="nav nav-pills flex-column flex-grow-1 overflow-auto p-3 mb-0 flex-nowrap">
+                <li class="nav-item"><a href="#" class="nav-link active">Dashboard</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Settings</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Profile</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Notifications</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 6</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 7</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 8</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 9</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 10</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 11</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 12</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 13</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 14</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 15</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 16</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 17</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 18</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 19</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 20</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 21</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 22</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 23</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Item 24</a></li>
+            </ul>
+
+            <div class="p-3 border-top d-lg-block d-none">
+                <a href="#" class="nav-link">Logout</a>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div class="flex-grow-1 overflow-auto">
+            <!-- Navbar -->
+            <nav class="navbar bg-dark d-lg-none">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar" aria-controls="sidebar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div>
+                        <a href="#" class="nav-link">Logout</a>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="container-fluid py-3">
+                <h1>Main Content</h1>
+                <p>This is the main content area of the page.</p>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Card Title 1</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Card Title 2</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card mb-4">
+                            <div class="card-body">
+                                <h5 class="card-title">Card Title 3</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
